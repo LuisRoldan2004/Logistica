@@ -1,0 +1,16 @@
+.user-details {
+  padding: 25px;
+  background: rgb(10, 4, 32);
+  color: aliceblue;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex: 1;
+  color: rgb(10, 10, 48);
+}
+  

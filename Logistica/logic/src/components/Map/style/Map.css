@@ -1,0 +1,72 @@
+
+.map-container-register {
+  width: 90vw;
+  padding: 20px;
+  margin-bottom: 50px;
+  }
+.container-web-r {
+    overflow-y: auto;
+  }
+  .map-container {
+    position: relative; /* Establece el contenedor del mapa como relativo */
+  }
+  
+  .search-container button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Elimina el borde por defecto del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    padding: 8px 16px; /* Espaciado interno del botón */
+    margin-right: 10px; /* Espacio entre botones */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 14px; /* Tamaño del texto del botón */
+  }
+  .out-search {
+    background-color: #fff;
+    color: rgb(43, 43, 43);
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+.out-search {
+  margin-top: 10px; /* Espacio superior para separar del título */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.out-search button {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Elimina el borde por defecto del botón */
+  border-radius: 5px; /* Bordes redondeados del botón */
+  padding: 8px 16px; /* Espaciado interno del botón */
+  margin-right: 10px; /* Espacio entre botones */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  font-size: 14px; /* Tamaño del texto del botón */
+}
+
+
+.out-search button:hover {
+  background-color: #0056b3; /* Color del botón al pasar el cursor por encima */
+}
+
+.out-search button:focus {
+  outline: none; /* Elimina el borde de enfoque */
+}
+
+.out-search h3 {
+  margin-top: 0; /* Elimina el margen superior del título */
+  font-size: 18px; /* Tamaño de fuente del título */
+  color: #333; /* Color del texto del título */
+}
+
+.store-container {
+  height: auto; 
+  width: 100%; 
+  padding: 50px;
+ 
+}
+.store-container p, .store-container h2{
+  color: #363636;
+ 
+}

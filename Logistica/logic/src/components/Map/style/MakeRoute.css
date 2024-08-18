@@ -1,0 +1,27 @@
+/* App.css or your corresponding CSS file */
+.leaflet-control-zoom {
+    z-index: 1000; /* Ensure it is above other elements if needed */
+    
+  }
+  
+  .leaflet-top.leaflet-left {
+    top: 65px; /* Adjust based on the height of your search bar and any margin */
+  }
+/* MakeRoute.css */
+
+/* Cambiar color de la punta del popup */
+.custom-popup .leaflet-popup-tip {
+  background: #ffcccb; /* Color de la punta */
+}
+
+/* Opcional: Cambiar el color del contenido del popup */
+.custom-popup .leaflet-popup-content-wrapper {
+  background-color: #ffcccb; /* Color de fondo del popup */
+  color: #000; /* Color del texto del popup */
+  border-radius: 5px; /* Bordes redondeados opcional */
+}
+.input-number {
+  display: flex;
+}
+
+  

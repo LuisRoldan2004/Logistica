@@ -1,0 +1,96 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container-web {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 70%;
+    margin-bottom: 70px;
+    margin-right: 20px;
+    z-index: 100;
+    padding: 40px;
+    color: white; 
+    background: rgb(2, 10, 34); 
+    animation: slideIn 0.5s ease-out; /* Aplica la animación */
+}
+
+.login-box {
+    width: 100%;
+    max-width: 450px;
+    min-height: 500px;
+    border-style: none;
+    padding: 20px;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-box form {
+    width: 100%;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100px;
+    height: auto;
+    animation: bounce 2s infinite; /* Aplica la animación */
+}
+
+/* Animación de rebote */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Animación de entrada */
+@keyframes slideIn {
+    from {
+        transform: translateX(-5%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,12 @@
+.navbar_container {
+  background-color: rgb(245, 245, 245);
+  padding: 40px;
+}
+
+.navbar-brand {
+  font-weight: bold; 
+}
+
+.nav-link {
+  margin-right: 15px; 
+}

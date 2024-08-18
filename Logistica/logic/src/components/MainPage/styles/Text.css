@@ -1,0 +1,12 @@
+.text-container {
+    background-color: rgb(238, 238, 238);
+    padding: 50px;
+    color: rgb(39, 39, 39);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+}
+.title-container {
+    color: black;
+    font-size: 22px;
+    font-style: oblique;
+}

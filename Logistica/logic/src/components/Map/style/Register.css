@@ -1,0 +1,28 @@
+.register-container {
+    color: #fff;
+}
+.container-web-r {
+    background-color: rgb(10, 6, 44);
+    display: flex;
+    height: 100vh; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    width: 100%; 
+}
+.info-container-register {
+    margin: auto;
+}
+.progress-bar {
+    height: 5px;
+    background-color: #7bbed4;
+    margin-bottom: 20px;
+    transition: width 0.3s;
+  }
+  .register-box .mb-3 {
+    min-width: 400px;
+  }
+  .register-container {
+    margin-top: 20px;
+  }
